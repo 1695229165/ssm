@@ -1,0 +1,13 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    name: gsql
+    url: jdbc:mysql://127.0.0.1:3306/gsql
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.search.model
